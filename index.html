@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Notes App - Saheer Ahmed</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="appContainer">
+        <h1>Notes</h1>
+        <div id="app"></div>
+        <form id="noteForm">
+            <textarea id="noteText" placeholder="Enter your note here...."></textarea>
+            <div>
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+    </div>
+    <script src="src/note-model.js"></script>
+    <script src="src/note-list-model.js"></script>
+    <script src="src/note-list-view.js"></script>
+    <script src="src/single-note-view.js"></script>
+    <script src="src/note-controller.js"></script>
+
+    <script src="lib/testing-framework.js"></script>
+    <script src="spec/note-model.spec.js"></script>
+    <script src="spec/note-list-model.spec.js"></script>
+    <script src="spec/note-list-view.spec.js"></script>
+    <script src="spec/single-note-view.spec.js"></script>
+</body>
+
+</html>
